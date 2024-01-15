@@ -173,10 +173,10 @@ export default function Page() {
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
+                  key={project["title"]}
+                  title={project["title"]}
+                  description={project["description"]}
+                  tags={project["techStack"]}
                   link={"link" in project ? project.link.href : undefined}
                 />
               );
