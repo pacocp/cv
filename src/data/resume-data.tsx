@@ -51,14 +51,6 @@ export const RESUME_DATA = {
       },
     ],
   },
-  education: [
-    {
-      school: "University of Granada",
-      degree: "Ph.D. in machine learning applied to bioinformatics",
-      start: "2019",
-      end: "2023",
-    },
-  ],
   work: [
     {
       company: "Stanford University",
@@ -92,6 +84,26 @@ export const RESUME_DATA = {
     },
 
   ],
+  education: [
+    {
+      school: "University of Granada",
+      degree: "Ph.D. in machine learning applied to bioinformatics",
+      start: "2019",
+      end: "2023",
+    },
+    {
+      school: "University of Granada",
+      degree: "Msc Data Science and Computer Engineering",
+      start: "2018",
+      end: "2019",
+    },
+    {
+      school: "University of Granada",
+      degree: "Bsc Computer Science",
+      start: "2013",
+      end: "2018",
+    },
+  ],
   skills: [
     "Python",
     "Machine Learning",
@@ -102,7 +114,7 @@ export const RESUME_DATA = {
     "Pytorch",
     "Research"
   ],
-  projects: [
+   projects: [
     /*{
       title: "Bim",
       techStack: ["Lead Android Developer", "Android", "Kotlin"],
