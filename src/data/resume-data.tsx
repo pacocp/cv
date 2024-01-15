@@ -67,7 +67,7 @@ export const RESUME_DATA = {
       title: "Postdoctoral researcher",
       logo: StanfordLogo,
       start: "2023",
-      end: "",
+      end: "Currently",
       description:
         "Leading biomedical projects on multi-modal generative models, including GANs and Diffusion models, and self-supervised learning techniques for cancer data. Applying for the first time diffusion models in the context of transcriptomics-to-image synthesis.",
     },
