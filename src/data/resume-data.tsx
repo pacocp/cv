@@ -65,7 +65,6 @@ export const RESUME_DATA = {
       link: "https://med.stanford.edu/gevaertlab.html",
       badges: ["Remote"],
       title: "Postdoctoral researcher",
-      logo: StanfordLogo,
       start: "2023",
       end: "Currently",
       description:
@@ -76,7 +75,6 @@ export const RESUME_DATA = {
       link: "https://www.ugr.es/",
       badges: ["In person"],
       title: "Ph.D. Student",
-      logo: UGRLogo,
       start: "2019",
       end: "2023",
       description:
@@ -87,7 +85,6 @@ export const RESUME_DATA = {
       link: "https://mdurance.com/",
       badges: ["In person"],
       title: "Data Scientist",
-      logo: mduranceLogo,
       start: "2017",
       end: "2019",
       description:
