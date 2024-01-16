@@ -10,11 +10,13 @@ import { Badge } from "./ui/badge";
 interface Props {
   title: string;
   description: string;
+  authors: string;
+  journal: string;
   tags: readonly string[];
   link?: string;
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, authors, journal, tags, link }: Props) {
   return (
     <Card className="flex flex-col overflow-hidden border border-muted p-3">
       <CardHeader className="">
@@ -37,7 +39,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
           <CardDescription className="font-mono text-xs">
-            {description}
+            {authors}, {journal}
           </CardDescription>
         </div>
       </CardHeader>

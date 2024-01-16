@@ -168,13 +168,15 @@ export default function Page() {
         </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <h2 className="text-xl font-bold">Selected publications (all <a href="https://scholar.google.com/citations?user=KqHbnTkAAAAJ&hl=en">here</a>)</h2>
+          <div className="flex items-center justify-between gap-x-2 text-base">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
                   key={project["title"]}
                   title={project["title"]}
+                  authors={project["authors"]}
+                  journal={project["journal"]}
                   description={project["description"]}
                   tags={project["techStack"]}
                   link={"link" in project ? project["link"]["href"] : undefined}
