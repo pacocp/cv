@@ -120,28 +120,41 @@ export const RESUME_DATA = {
        authors: "Carrillo-Perez, F., Pizurica, M., Ozawa, M., Vogel, H., West, R., Kong, C., Herrera, L.J., Shen, J., Gevaert, O.",
        journal: "Cell Reports Methods",
        techStack: ["Histopathology", "GANs", "VAEs", "Generative Modelling"],
-       link: "https://doi.org/10.1016/j.crmeth.2023.100534",
+       description: "",
+       link: {
+         label: "Paper",
+         href: "https://doi.org/10.1016/j.crmeth.2023.100534"},  
       },
       {
        title: "Machine-Learning-Based Late Fusion on Multi-Omics and Multi-Scale Data for Non-Small-Cell Lung Cancer Diagnosis (2022)",
        authors: "Carrillo-Perez, F., Morales JC, Castillo-Secilla D, Gevaert O, Rojas I, Herrera LJ.",
        journal: "Journal of Personalized Medicine",
        techStack: ["Histopathology", "Multi-modal data", "Gene Expression", "Information fusion"],
-       link: "https://www.mdpi.com/2075-4426/12/4/601",
+       description: "",
+       link: {
+         label: "Paper",
+         href: "https://www.mdpi.com/2075-4426/12/4/601"},
       },
       {
        title: "Non-small-cell lung cancer classification via RNA-Seq and histology imaging probability fusion (2021)",
        authors: "Carrillo-Perez, F., Morales, J. C., Castillo-Secilla, D., Molina-Castro, Y., Guillén, A., Rojas, I., & Herrera, L. J.",
        journal: "BMC bioinformatics",
        techStack: ["Histopathology", "Multi-modal data", "Gene Expression", "Information fusion"],
-       link: "https://doi.org/10.1186/s12859-021-04376-1",
+       description: "",
+       link: {
+         label: "Paper",
+         href: "https://doi.org/10.1186/s12859-021-04376-1"},
       },
       {
        title: "Deep learning to classify ultra-high-energy cosmic rays by means of PMT signals (2021)",
        authors: "Carrillo-Perez, F., Herrera, L. J., Carceller, J. M., & Guillén, A.",
        journal: "Neural Computing and Applications",
        techStack: ["Particle Physics", "CNN", "Information fusion"],
-       link: "https://link.springer.com/article/10.1007/s00521-020-05679-9",
+       description: "",
+       link: {
+        label: "Paper",
+        href: "https://link.springer.com/article/10.1007/s00521-020-05679-9",
+      },
       },
     /*{
       title: "Bim",

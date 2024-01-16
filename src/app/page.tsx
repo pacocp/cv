@@ -167,7 +167,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section>
           <h2 className="text-xl font-bold">Selected publications (all <a href="https://scholar.google.com/citations?user=KqHbnTkAAAAJ&hl=en">here</a>)</h2>
           <div className="flex items-center justify-between gap-x-2 text-base">
             {RESUME_DATA.projects.map((project) => {
